@@ -64,46 +64,50 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 git clone https://github.com/yourusername/chat-application.git
-2. Backend Setup
+```
+
+### 2. Backend Setup
 Navigate to the backend directory, build, and run the Spring Boot application:
 
-bash
-Copy
-Edit
+```bash
 cd chat-application/backend
 mvn clean install
 mvn spring-boot:run
-3. Frontend Setup
+```
+
+### 3. Frontend Setup
 Navigate to the frontend directory, install dependencies, and start the React development server:
 
-bash
-Copy
-Edit
+```bash
 cd ../frontend
 npm install
 npm start
-After following these steps, the application will be accessible at http://localhost:3000.
+```
 
-Usage
-Register an Account:
+## After following these steps, the application will be accessible at http://localhost:3000.
+
+# Usage
+-**Register an Account:**
 Create a new user account.
 
-Login:
+-**Login:**
 Authenticate using your credentials.
 
-Join a Chat Room:
+-**Join a Chat Room:**
 Select or create a chat room to join.
 
-Send Messages:
+-**Send Messages:**
 Communicate in real time with other users.
 
-View Message History:
+-**View Message History:**
 Access previous conversations within chat rooms.
 
-API Endpoints
+## API Endpoints
 Authentication
 Register:
+```bash
 POST /api/auth/register
+```
 Register a new user.
 
 Login:
@@ -131,7 +135,7 @@ Send a message to a specific chat room.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgments
+### Acknowledgments
 Spring Boot Guides
 
 React Documentation
