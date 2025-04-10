@@ -103,45 +103,45 @@ Communicate in real time with other users.
 Access previous conversations within chat rooms.
 
 ## API Endpoints
-Authentication
-Register:
+# Authentication
 ```bash
 POST /api/auth/register
 ```
 Register a new user.
 
-Login:
+# Login:
+```bash
 POST /api/auth/login
+```
 Authenticate a user and retrieve a JWT token.
 
-Chat Rooms
+# Chat Rooms
 List Chat Rooms:
+```bash
 GET /api/chatrooms
+```
 Retrieve a list of all chat rooms.
 
-Create Chat Room:
-POST /api/chatrooms
+# Create Chat Room:
+```bash POST /api/chatrooms
+```
 Create a new chat room.
 
-Messages
+# Messages
 Retrieve Messages:
+```bash
 GET /api/messages/{chatroomId}
+```
 Retrieve messages for a specific chat room.
 
-Send Message:
+# Send Message:
+```bash
 POST /api/messages/{chatroomId}
+```
 Send a message to a specific chat room.
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ### Acknowledgments
 Spring Boot Guides
-
-React Documentation
-
-MongoDB Manual
-
-How to Write a Good README File
-
-PurpleBooth's README Template
